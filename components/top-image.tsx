@@ -1,3 +1,5 @@
+import { Badge } from "./ui/badge";
+
 export default function TopImage({
   path,
   title,
@@ -21,9 +23,9 @@ export default function TopImage({
       <div className="md:pl-20 p-5 space-y-4">
         <h1 className="text-7xl font-bold drop-shadow-2xl">{title}</h1>
         {subtitle != "" ? (
-          <p className="text-fuchsia-400 text-2xl font-bold">
-            Luge Athlete / Student / Slayer{" "}
-          </p>
+          <Badge className="bg-fuchsia-400 text-lg hover:bg-fuchsia-400">
+            Student / Athlete / Slayer
+          </Badge>
         ) : (
           <p></p>
         )}

@@ -18,7 +18,7 @@ const PageHeader = () => {
           <DropdownMenuTrigger asChild>
             <Button
               variant="outline"
-              className="hover:bg-purple-400 hover:text-white"
+              className="hover:bg-fuchsia-400 hover:text-white"
             >
               Menu
             </Button>
@@ -46,7 +46,7 @@ const PageHeader = () => {
         <a href="/">
           <Button
             variant="ghost"
-            className="hover:bg-purple-400 hover:text-white"
+            className="hover:bg-fuchsia-400 hover:text-white"
           >
             About Me
           </Button>
@@ -54,7 +54,7 @@ const PageHeader = () => {
         <a href="/goals">
           <Button
             variant="ghost"
-            className="hover:bg-purple-400 hover:text-white"
+            className="hover:bg-fuchsia-400 hover:text-white"
           >
             Goals
           </Button>
@@ -62,7 +62,7 @@ const PageHeader = () => {
         <a href="/past-results">
           <Button
             variant="ghost"
-            className="hover:bg-purple-400 hover:text-white"
+            className="hover:bg-fuchsia-400 hover:text-white"
           >
             Past Results
           </Button>
@@ -70,7 +70,7 @@ const PageHeader = () => {
         <a href="/skills-&-values">
           <Button
             variant="ghost"
-            className="hover:bg-purple-400 hover:text-white"
+            className="hover:bg-fuchsia-400 hover:text-white"
           >
             Skills & Values
           </Button>

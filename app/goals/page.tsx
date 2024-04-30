@@ -46,7 +46,7 @@ export default function Goals() {
               {goals.map((goal, index) => (
                 <div
                   key={index}
-                  className="flex flex-row w-full h-auto bg-purple-400 hover:bg-purple-500 rounded-md p-9 items-center justify-center gap-4"
+                  className="flex flex-row w-full h-auto bg-purple-600 hover:bg-fuchsia-400 rounded-md p-9 items-center justify-center gap-4"
                 >
                   <div className="text-4xl w-auto text-black text-white">
                     {goal.number}

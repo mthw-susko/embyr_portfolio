@@ -28,7 +28,7 @@ export default function Home() {
         </div>
         <div className="justify-end items-start gap-5 inline-flex drop-shadow-lg">
           <a href="/skills-&-values">
-            <Button className="bg-purple-400 hover:bg-purple-600">
+            <Button className="bg-purple-600 hover:bg-fuchsia-400">
               Skills & Values
             </Button>
           </a>
@@ -52,12 +52,12 @@ export default function Home() {
         </div>
         <div className="justify-end items-start gap-5 inline-flex drop-shadow-lg">
           <a href="/past-results">
-            <Button className="bg-purple-400 hover:bg-purple-600">
+            <Button className="bg-purple-600 hover:bg-fuchsia-400">
               Past Results
             </Button>
           </a>
           <a href="/goals">
-            <Button className="bg-purple-400 hover:bg-purple-600">
+            <Button className="bg-purple-600 hover:bg-fuchsia-400">
               My Goals
             </Button>
           </a>
@@ -81,7 +81,7 @@ export default function Home() {
         </div>
         <div className="justify-end items-start gap-5 inline-flex drop-shadow-lg">
           <a href="mailto:embyr@susko.ca">
-            <Button className="bg-purple-400 hover:bg-purple-600">
+            <Button className="bg-purple-600 hover:bg-fuchsia-400">
               Work With Me
             </Button>
           </a>
