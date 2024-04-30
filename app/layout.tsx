@@ -10,7 +10,9 @@ export const metadata: Metadata = {
   title: "Embyr Susko's Portfolio",
   description: "Portfolio showing off Embyr's ability in and outside of sport",
   icons: {
-    icon: "/favicon.ico",
+    icon: ["/favicon.ico?v=4"],
+    apple: ["/apple-touch-icon.png?v=4"],
+    shortcut: ["/apple-touch-icon.png"],
   },
 };
 

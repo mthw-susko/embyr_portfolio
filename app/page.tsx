@@ -58,7 +58,7 @@ export default function Home() {
           </a>
           <a href="/goals">
             <Button className="bg-purple-400 hover:bg-purple-600">
-              My goals
+              My Goals
             </Button>
           </a>
         </div>
